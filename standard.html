@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Gran Print</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    
+    <!-- Inicio da barra de navegão -->
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.tml">Gran Print</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " href="index.html">Home</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Acomodação 
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="standard.html">Standard</a></li>
+                  <li><a class="dropdown-item" href="master.html">Master</a></li>
+                  <li><a class="dropdown-item" href="presidenial.html">Presidencial</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href= "gastronomia.html">Gastronoia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href= "lazer.html">lazer</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href= "reservas.html">reservas</a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+
+    <!-- Fim da barra de navegação -->
+
+    <!-- inicio do carroussel -->
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/img2/hotelp1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/img2/hotelp2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/img2/hotelp3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+
+    <!-- fim do carroussel -->
+
+     <div class="container-fluid">
+         <div class="row">
+             <div class="col">
+                 <from id="reservas_superior"> 
+                     <label>Faça sua Reserva Aqui</label>
+                     <label>Check-In:
+
+                     </label>
+                     <input type="date" id="checkout" required>
+                     <label>Check-Out:</label><input type="date" id="checkout" require>
+                     <input type="submit" id= "btnreservas"value="Reservar">
+                    
+                 </from>
+             </div>
+         </div>
+
+
+
+     </div>
+    
+    
+    
+    
+    <!-- inicio do rodapé(footer) -->
+    <div class="card text-center">
+      <div class="card-header fundo">
+
+
+          <a href="http://www.facebook.com" target="_blank">
+        <i class="bi bi-facebook"></i>
+          </a>
+
+          <a href="http://www.instagram.com" target="_blank">
+          <i class="bi bi-instagram"></i>
+          </a>
+
+          <a href="http://www.youtube.com" target="_blank">
+          <i class="bi bi-youtube"></i>
+          </a>
+    
+          <a href="http://www.github.com" target="_blank">
+          <i class="bi bi-github"></i>
+          </a>
+
+          <a href="http://www.linkedin.com" target="_blank">
+            <i class="bi bi-linkedin"></i>
+          </a>
+
+
+
+
+      </div>
+      <div class="card-body fundo2">
+        <h5 class="card-title">Onde estamos?</h5>
+        <p class="card-text">
+          Rua Ministro Gomes Abrel,125,<br>
+          Porto Feliz - São Paulo  - SP <br>
+          Telefone: +55 (11) 98629922 | +55 (11) 3985-98420
+        </p> 
+                 
+
+        
+        <a href="http://wa.me/1198629922?text=Ola puta" class="btn btn-success"><i class="bi bi-whatsapp"></i>Whatsapp</a>
+      </div>
+    </div>
+
+    <!-- fim do rodapé (footer) -->
+    
+    
+    
+    
+    
+    
+    
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
