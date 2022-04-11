@@ -25,3 +25,11 @@
   background-color: rgb(240, 248, 248);
   color: #000;
 }
+.fundo-branco {
+  background-color: white;
+}
+body {
+  background-image: url("../img/img2/hotelp1.jpg");
+  background-attachment: fixed;
+  background-size: 100%;
+}
